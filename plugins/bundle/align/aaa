@@ -1,0 +1,5 @@
+x      =  y = z  = 3;
+xx     = yy = zz =  4
+int i;
+    function x (int x ) {
+    }
