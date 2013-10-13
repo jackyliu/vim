@@ -111,8 +111,6 @@ nmap <C-\>p :ProjectImport
 nmap <C-\>n :ProjectCreate -n 
 nmap <C-\>b :ProjectBuild<CR>
 
-set paste
-
 if glob('AndroidManifest.xml') =~ ''
    if filereadable('project.properties') 
         let s:androidSdkPath = '/opt/tools/sdk'
