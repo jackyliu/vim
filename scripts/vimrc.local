@@ -127,7 +127,7 @@ if glob('AndroidManifest.xml') =~ ''
         endif
         let s:path = resolve(expand('<sfile>:p'))
         for jar in split(glob('libs/*.jar'), "\n")
-            let $CLASSPATH = s:path . jar . ":" . $CLASSPATH
+            let $CLASSPATH = jar . ":" . $CLASSPATH
         endfor
     end 
 endif
