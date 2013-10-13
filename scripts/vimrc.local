@@ -135,4 +135,11 @@ endif
 set ai
 set ci
 
+nmap tc :tabclose<CR>
+nmap tn :tabnew<CR>
+nmap tj :tabprevious<CR>
+nmap tk :tabnext<CR>
+nmap th :tabfirst<CR>
+nmap tl :tablast<CR>
+
 colorscheme elflord
